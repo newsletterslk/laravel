@@ -1,41 +1,28 @@
 {
-    "name": "newsletterslk/websmslk",
+    "name": "newsletterslk",
     "description": "SMS Gateways Sri Lanka",
-    "type": "library",
     "license": "MIT",
+    "version": "1",
     "authors": [
         {
             "name": "Newsletters.lk",
-            "email": "info@newsletters.lk",
-            "homepage": "http://newsletters.lk"
-        },
-        {
-            "name": "Newsletters.lk",
-            "homepage": "https://github.com/newsletterslk/laravel"
+            "email": "sasindu@smarteworks.com",
+            "homepage": "https://newsletterslk"
         }
     ],
-    "keywords": [
-        "sms gateway in sri lanka",
-        "otp sms sri lanka",
-        "sms in sri lanka"
-    ],
-    "minimum-stability": "dev",
+    "homepage": "https://github.com/newsletterslk/laravel",
+    "keywords": ["Laravel Web SMS Sri Lanka"],
     "require": {
-        "php": "^7.1.8 || ^8.0",
-        "ext-json": "*",
-        "symfony/polyfill-mbstring": "^1.0",
-        "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+        "illuminate/support": "~5.4"
     },
     "autoload": {
         "psr-4": {
-            "Newsletterslk\\laravel": "src/"
+            "Newsletterslk\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Newsletterslk\\Laravel\\ServiceProvider"
-            ]
+    "autoload-dev": {
+        "psr-4": {
+            "Newsletterslk\\": "tests/"
         }
     }
 }
