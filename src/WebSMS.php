@@ -1,5 +1,5 @@
 <?php
-namespace Newsletterslk;
+namespace Newsletterslk\Sms;
 
 use Illuminate\Support\Facades\Http;
 

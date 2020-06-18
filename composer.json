@@ -1,5 +1,5 @@
 {
-    "name": "newsletterslk",
+    "name": "newsletterslk/sms",
     "description": "SMS Gateways Sri Lanka",
     "license": "MIT",
     "version": "1",
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Newsletterslk\\": "src/"
+            "Newsletterslk\\Sms": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Newsletterslk\\": "tests/"
+            "Newsletterslk\\Sms": "tests/"
         }
     }
 }
